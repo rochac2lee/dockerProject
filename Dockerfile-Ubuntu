@@ -1,8 +1,8 @@
+# Instalação e Configuração do Docker
+# https://www.devmedia.com.br/exemplo/como-subir-uma-aplicacao-docker-para-o-heroku-e-amazon-aws/87?parte=4
+
+#Busca uma imagem no Docker Hub
 FROM ubuntu
-
-# COPY ./ /var/www/html/
-
-# EXPOSE 80
 
 # Cria um processo e o mantém sendo executado indefinidamente 
 CMD ["tail", "-f", "/dev/null"]
